@@ -6,6 +6,10 @@ const theme = ({ dt }) => `
     margin: 0;
 }
 
+.p-buttongroup p-button {
+    display:flex;
+}
+
 .p-buttongroup .p-button:not(:last-child),
 .p-buttongroup .p-button:not(:last-child):hover {
     border-right: 0 none;
